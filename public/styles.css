@@ -45,3 +45,32 @@ footer {
   text-align: center;
   font-size: .75em;
 }
+
+/* ==== Layout Styles ===*/
+
+.contacts {
+  width: 80%;
+  margin: auto;
+}
+
+.contacts li {
+  background-color: turquoise;
+  margin: 10px auto;
+  text-align: left;
+  padding: 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.contacts a {
+  font-size: .75em;
+  font-weight: lighter;
+}
+
+.status {
+  margin: 10px auto;
+  text-align: center;
+  background-color: salmon;
+  width: 80%;
+  padding: 10px;
+}
