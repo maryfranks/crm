@@ -1,3 +1,8 @@
+/*===== Color Pallete ===*/
+/*#99B0BF
+#BFC0C0
+#3A2D32
+#9E829C*/
 /* ==== Layout Styles ===*/
 
 html {
@@ -14,7 +19,7 @@ header {
 }
 
 h1 {
-  background-color: black;
+  background-color: #3A2D32;
   color: white;
   text-align: center;
   padding: 10px;
@@ -23,7 +28,7 @@ h1 {
 }
 
 nav li {
-  background-color: lightgrey;
+  background-color: #BFC0C0;
   text-align: center;
   padding: 10px;
   margin: 2px;
@@ -39,14 +44,14 @@ nav a {
 footer {
   margin: 2px auto;
   width: 90%;
-  background-color: black;
+  background-color: #3A2D32;
   color: white;
   padding: 10px;
   text-align: center;
   font-size: .75em;
 }
 
-/* ==== Layout Styles ===*/
+/* ==== Contacts Page Styles ===*/
 
 .contacts {
   width: 80%;
@@ -54,7 +59,7 @@ footer {
 }
 
 .contacts li {
-  background-color: turquoise;
+  background-color: #99B0BF;
   margin: 10px auto;
   text-align: left;
   padding: 10px;
@@ -70,7 +75,7 @@ footer {
 .status {
   margin: 10px auto;
   text-align: center;
-  background-color: salmon;
+  background-color: #9E829C;
   width: 80%;
   padding: 10px;
 }
