@@ -1,0 +1,47 @@
+/* ==== Layout Styles ===*/
+
+html {
+  font-size: 1rem;
+
+}
+* {
+  box-sizing: border-box;
+}
+
+header {
+  width: 90%;
+  margin: auto;
+}
+
+h1 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+nav li {
+  background-color: lightgrey;
+  text-align: center;
+  padding: 10px;
+  margin: 2px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+footer {
+  margin: 2px auto;
+  width: 90%;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: .75em;
+}
