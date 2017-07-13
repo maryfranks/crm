@@ -2,7 +2,7 @@
   <p class="status">There are <span><%= @contacts.count %></span> contacts </p>
   <ul class="contacts">
     <% @contacts.each do |contact|-%>
-    <li><%=contact.full_name%> (<%=contact.email%>) <br>
+    <li><a href="/contacts/<%= contact.id %>" class="name"><%=contact.full_name%></a> (<%=contact.email%>) <br>
       <a href="#">Edit</a> | <a href="#">Delete</a></li>
     <%end-%>
   </ul>

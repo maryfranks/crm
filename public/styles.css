@@ -72,6 +72,13 @@ footer {
   font-weight: lighter;
 }
 
+.name {
+  font-size: 1.5em !important;
+  font-weight: bold !important;
+  color: black !important;
+  text-decoration: none !important;
+}
+
 .status {
   margin: 10px auto;
   text-align: center;
