@@ -89,3 +89,22 @@ footer {
   padding: 10px;
   text-align: center;
 }
+
+/* ==== Each Contact Page Styles ===*/
+.contact {
+  width: 90%;
+  margin: auto;
+}
+
+.display-contacts {
+  background-color: #99B0BF;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  width: 70%;
+  margin: 10px auto;
+}
+
+.display-contacts li {
+  padding: 20px;
+}
