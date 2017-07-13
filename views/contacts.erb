@@ -5,8 +5,7 @@
     <title>Contacts</title>
   </head>
   <body>
-    <h1>Contacts</h1>
-    <ul>
+    <ul class="contacts">
       <% @contacts.each do |contact|-%>
       <li><%=contact.full_name%>, <%=contact.email%>, <%=contact.note%></li>
       <%end-%>
