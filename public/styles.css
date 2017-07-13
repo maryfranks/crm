@@ -79,3 +79,13 @@ footer {
   width: 80%;
   padding: 10px;
 }
+
+/* ==== Home Page Styles ===*/
+.home {
+  margin: 2px auto;
+  width: 90%;
+  background-color: #3A2D32;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
