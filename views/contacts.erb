@@ -3,6 +3,6 @@
   <ul class="contacts">
     <% @contacts.each do |contact|-%>
     <li><a href="/contacts/<%= contact.id %>" class="name"><%=contact.full_name%></a> (<%=contact.email%>) <br>
-      <a href="#">Edit</a> | <a href="#">Delete</a></li>
+      <a href="/contacts/<%= contact.id %>/edit">Edit</a> | <a href="#">Delete</a></li>
     <%end-%>
   </ul>
